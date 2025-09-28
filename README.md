@@ -21,7 +21,7 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 - **O(n)** → Linear time (linear search).  
 - **O(n log n)** → Linearithmic time (merge sort, quick sort average).  
 - **O(n²)** → Quadratic time (bubble sort, selection sort).  
-- **O(2^n)** → Exponential time (recursive Fibonacci).  
+- **O(2<sup>n</sup>)** → Exponential time (recursive Fibonacci).  
 - **O(n!)** → Factorial time (brute-force permutations).  
 
 ---
@@ -69,7 +69,7 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 
 ---
 
-### 🧾 O(2^n) – Exponential Time (Recursive Fibonacci)  
+### 🧾 O(2<sup>n</sup>) – Exponential Time (Recursive Fibonacci)  
 1. Start  
 2. Define recursive function `fib(n)`:  
    - If `n <= 1`, return `n`.  
@@ -88,7 +88,7 @@ To study and understand **Big O Notation** in C++ for analyzing the **time and s
 | O(n)       | Linear Search            | Linear      |
 | O(n log n) | Merge Sort, Quick Sort   | Linearithmic|
 | O(n²)      | Bubble Sort, Selection   | Quadratic   |
-| O(2^n)     | Recursive Fibonacci      | Exponential |
+| O(2<sup>n</sup>)     | Recursive Fibonacci      | Exponential |
 | O(n!)      | Brute-force permutations | Factorial   |
 
 ---
